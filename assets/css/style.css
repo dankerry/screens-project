@@ -2,14 +2,18 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 
   .container,
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 70%;
+    max-width: 80%;
   }
+}
+
+.main-content {
+  padding: 80px 120px;
 }
 
 .container {
