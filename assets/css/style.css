@@ -2,13 +2,33 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
-@media (min-width: 992px) {
+@font-face {
+  font-family: "Agency";
+  src: url("AGENCYR.TTF");
+}
+
+.main-content {
+  padding: 5px 9px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    padding: 0 9px !important;
+  }
+}
+
+
+@media (min-width: 1200px) {
 
   .container,
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 70%;
+    max-width: 80%;
+  }
+
+  .main-content {
+    padding: 80px 120px;
   }
 }
 
@@ -33,6 +53,18 @@ body {
 
 .txt-14 {
   font-size: 14px;
+}
+
+.txt-12 {
+  font-size: 12px;
+}
+
+.txt-10 {
+  font-size: 10px;
+}
+
+.h-16 {
+  height: 16px;
 }
 
 .action-card {
