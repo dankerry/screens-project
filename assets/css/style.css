@@ -32,6 +32,10 @@ body {
   }
 }
 
+.main-content {
+  padding: 80px 120px;
+}
+
 .container {
   border-right: solid 1px #eaeaea;
   border-left: solid 1px #eaeaea;
